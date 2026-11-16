@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="900" height="130">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#111c35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="130" rx="10" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Metric 1: Focus Area -->
+  <g transform="translate(35, 25)">
+    <circle cx="16" cy="16" r="16" fill="#1e293b"/>
+    <text x="16" y="21" font-family="-apple-system, sans-serif" font-size="14" text-anchor="middle" fill="#38bdf8">🤖</text>
+    <text x="45" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">PRIMARY DOMAIN</text>
+    <text x="45" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Artificial Intelligence &amp; ML</text>
+  </g>
+
+  <!-- Metric 2: Academic Status -->
+  <g transform="translate(325, 25)">
+    <circle cx="16" cy="16" r="16" fill="#1e293b"/>
+    <text x="16" y="21" font-family="-apple-system, sans-serif" font-size="14" text-anchor="middle" fill="#818cf8">🎓</text>
+    <text x="45" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">EDUCATION</text>
+    <text x="45" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">BS Artificial Intelligence (5th Sem)</text>
+  </g>
+
+  <!-- Metric 3: Core Technology -->
+  <g transform="translate(635, 25)">
+    <circle cx="16" cy="16" r="16" fill="#1e293b"/>
+    <text x="16" y="21" font-family="-apple-system, sans-serif" font-size="14" text-anchor="middle" fill="#34d399">🐍</text>
+    <text x="45" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">CORE STACK</text>
+    <text x="45" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Python · Scikit-Learn · Flask · Streamlit</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="35" y1="75" x2="865" y2="75" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Footer highlights -->
+  <g transform="translate(35, 102)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">
+      <tspan fill="#38bdf8" font-weight="600">Verified Highlights:</tspan> 94.9% SVC Model Accuracy (100k Records) <tspan fill="#334155">·</tspan> Groq LLaMA 3.1 AI Scoring <tspan fill="#334155">·</tspan> Live Production Platform: aitoolszone.tech
+    </text>
+  </g>
+</svg>
