@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 175" width="900" height="175">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#131e36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners and border -->
+  <rect width="900" height="175" rx="14" fill="url(#bgGradient)"/>
+  <rect width="900" height="175" rx="14" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="899" height="174" rx="13.5" fill="none" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Top decorative accent line -->
+  <rect x="36" y="16" width="130" height="2.5" fill="url(#accentLine)" rx="1.25"/>
+
+  <!-- Status Badge Pill -->
+  <g transform="translate(36, 42)">
+    <rect width="230" height="24" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="14" cy="12" r="3.5" fill="#10b981"/>
+    <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AI &amp; MACHINE LEARNING DEVELOPER</text>
+  </g>
+
+  <!-- Developer Name -->
+  <text x="36" y="103" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="31" font-weight="700" fill="#f8fafc" letter-spacing="-0.5">Abdul Hannan Khan</text>
+  
+  <!-- Subtitle / Professional Identity -->
+  <text x="36" y="129" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#94a3b8">Machine Learning Systems <tspan fill="#475569">·</tspan> Python Developer <tspan fill="#475569">·</tspan> Predictive Analytics &amp; Applied AI</text>
+
+  <!-- Metadata details -->
+  <g transform="translate(36, 153)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#64748b">
+      BS Artificial Intelligence <tspan fill="#334155">·</tspan> Scikit-Learn · Streamlit · Flask · Groq LLaMA 3.1 · OpenCV <tspan fill="#334155">·</tspan> Pakistan
+    </text>
+  </g>
+</svg>

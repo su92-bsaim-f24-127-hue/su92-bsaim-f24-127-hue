@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 32" width="650" height="32">
+  <defs>
+    <style>
+      .typing-text {
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Fira Code', monospace;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        text-anchor: middle;
+      }
+      .t1 {
+        fill: #38bdf8;
+        animation: rot1 12s infinite;
+      }
+      .t2 {
+        fill: #818cf8;
+        animation: rot2 12s infinite;
+      }
+      .t3 {
+        fill: #34d399;
+        animation: rot3 12s infinite;
+      }
+      .t4 {
+        fill: #f472b6;
+        animation: rot4 12s infinite;
+      }
+      @keyframes rot1 {
+        0%, 20% { opacity: 1; transform: translateY(0px); }
+        25%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes rot2 {
+        0%, 24% { opacity: 0; transform: translateY(8px); }
+        26%, 46% { opacity: 1; transform: translateY(0px); }
+        51%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes rot3 {
+        0%, 50% { opacity: 0; transform: translateY(8px); }
+        52%, 72% { opacity: 1; transform: translateY(0px); }
+        77%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes rot4 {
+        0%, 76% { opacity: 0; transform: translateY(8px); }
+        78%, 96% { opacity: 1; transform: translateY(0px); }
+        100% { opacity: 0; transform: translateY(-8px); }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(325, 20)">
+    <text class="typing-text t1">⚡ BS Artificial Intelligence Student @ Superior University</text>
+    <text class="typing-text t2">🤖 Machine Learning &amp; Supervised Predictive Modeling</text>
+    <text class="typing-text t3">🐍 Python Developer · Flask &amp; Streamlit Web Applications</text>
+    <text class="typing-text t4">🚀 Building Practical Data-Driven AI Solutions</text>
+  </g>
+</svg>
